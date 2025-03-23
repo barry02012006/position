@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section1 {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(211, 214, 218);
+  position: relative;
+}
+.section2 {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(115, 117, 119);
+  position: relative;
+}
+.section3 {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  position: relative;
+}
+.section4 {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(115, 117, 119);
+  position: relative;
+}
+.container {
+  margin: auto;
+  width: 1200px;
+}
+.row {
+  display: flex;
+  text-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+  margin: 50px 0px;
+}
+.col-12 {
+  width: 100%;
+  margin: 50px 0px;
+}
+.item1 {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(92, 92, 199);
+}
+.item2 {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(179, 13, 115, 0.795);
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(216, 16, 173);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section2 .item1 {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+}
+.section2 .box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(216, 16, 173);
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section3 .item1 {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+}
+.section3 .box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(216, 16, 173);
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section4 .item-s4 {
+  width: 100%;
+  height: 250px;
+  background-color: aquamarine;
+}
+.section4 .item1-s4 {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(59, 141, 63);
+}
+.box1 {
+  width: 600px;
+  height: 250px;
+  background-color: aquamarine;
+}
+.box2 {
+  width: 600px;
+  height: 250px;
+  background-color: rgb(194, 105, 182);
+  margin-left: 600px;
+}
+.big-box {
+  width: 1200px;
+  height: 500px;
+  background-color: rgb(43, 58, 201);
+}
+.last {
+  padding: 50px 0px;
+}
